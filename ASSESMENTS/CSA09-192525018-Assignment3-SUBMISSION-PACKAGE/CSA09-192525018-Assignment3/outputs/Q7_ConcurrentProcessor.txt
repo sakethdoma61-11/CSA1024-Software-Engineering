@@ -1,0 +1,10 @@
+OK student1.txt score=10
+OK student5.txt score=50
+FAILED student3.txt NumberFormatException: For input string: "bad"
+OK student7.txt score=70
+OK student4.txt score=40
+OK student2.txt score=20
+OK student6.txt score=60
+OK student8.txt score=80
+FAILED missing.txt NoSuchFileException: /tmp/results10712931884165995986/missing.txt
+SUMMARY success=7, failed=2, total=9, pool=4

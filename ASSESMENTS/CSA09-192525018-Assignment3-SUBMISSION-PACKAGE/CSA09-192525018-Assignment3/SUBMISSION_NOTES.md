@@ -1,0 +1,1 @@
+Name: D. Saketh\nRegister No.: 192525018\nJDK: OpenJDK 21\nPair work: individual preparation only; obtain faculty approval. Partner fields are intentionally unassigned.\nGitHub URL: pending repository creation.\nComplete required repeated benchmark measurements before final submission.\n

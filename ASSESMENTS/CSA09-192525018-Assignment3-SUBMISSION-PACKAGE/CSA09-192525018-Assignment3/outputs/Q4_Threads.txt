@@ -1,0 +1,5 @@
+Station-4 scanned 25 scripts
+Station-3 scanned 20 scripts
+Station-2 scanned 30 scripts
+Station-1 scanned 25 scripts
+All stations completed; total scanned = 100

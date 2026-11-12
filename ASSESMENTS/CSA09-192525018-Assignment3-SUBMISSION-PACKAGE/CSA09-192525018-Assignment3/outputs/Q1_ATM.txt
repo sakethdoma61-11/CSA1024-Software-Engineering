@@ -1,0 +1,10 @@
+200 => SUCCESS; balance=300.0
+  finally executed
+abc => INPUT ERROR: Amount must be a whole number
+  finally executed
+-10 => BUSINESS ERROR: Amount must be positive
+  finally executed
+900 => BUSINESS ERROR: Insufficient balance
+  finally executed
+50 => SUCCESS; balance=250.0
+  finally executed

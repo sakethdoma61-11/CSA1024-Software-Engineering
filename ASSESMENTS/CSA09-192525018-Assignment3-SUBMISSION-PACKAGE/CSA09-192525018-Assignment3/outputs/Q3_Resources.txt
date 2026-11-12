@@ -1,0 +1,3 @@
+Store 1: 1200 | Store 2: 850 | 
+Handled input failure: NoSuchFileException
+Try-with-resources closes opened files on success and failure.
