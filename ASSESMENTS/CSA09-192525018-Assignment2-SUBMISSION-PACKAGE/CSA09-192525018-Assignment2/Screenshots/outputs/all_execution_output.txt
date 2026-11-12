@@ -1,0 +1,35 @@
+===== StringComparison =====
+Short ticket | repetitions=1000 | average ns/ticket: + 638.5, Builder 407.2, Buffer 428.7
+50 fields | repetitions=1000 | average ns/ticket: + 9003.1, Builder 2647.4, Buffer 1169.1
+200 fields | repetitions=500 | average ns/ticket: + 81718.0, Builder 3623.7, Buffer 3790.3
+StringJoiner example: PNR:12345  | Name:Asha  | Coach:S1  | Fare:500
+
+===== ListComparison =====
+n=1000 | get(mid) ns: ArrayList=119370 LinkedList=776061 | front add/remove ns: ArrayList=63266 LinkedList=113159 | iteration ns: ArrayList=236757 LinkedList=315916
+ArrayDeque Up Next sample: [2]
+n=10000 | get(mid) ns: ArrayList=26249 LinkedList=1725563 | front add/remove ns: ArrayList=714499 LinkedList=53462 | iteration ns: ArrayList=629100 LinkedList=794366
+ArrayDeque Up Next sample: [2]
+n=50000 | get(mid) ns: ArrayList=41673 LinkedList=6324840 | front add/remove ns: ArrayList=1915611 LinkedList=74023 | iteration ns: ArrayList=2485236 LinkedList=2375214
+ArrayDeque Up Next sample: [2]
+
+===== Attendance =====
+Unique students: 2
+[192311001 Arun, 192311002 Divya]
+
+===== PharmacyMaps =====
+HASH: 100000 lookups=12261987 ns, key-list report=2824861 ns, first=MED08850, last=MED01807, checksum=501000000
+TREE: 100000 lookups=72462801 ns, key-list report=2404327 ns, first=MED00000, last=MED09999, checksum=501000000
+LINKED: 100000 lookups=9779173 ns, key-list report=1377884 ns, first=MED00000, last=MED09999, checksum=501000000
+
+===== LeaderboardDemo =====
+[Eagles(9,6), Bisons(9,4), Panthers(9,4), Cobras(6,1)]
+
+===== Triage =====
+Meena(S1) Kumar(S1) Lata(S2) Ravi(S3) John(S3) Asha(S5)
+
+===== OriginalLinearLookup =====
+Index=99999, elapsed ns=12475800
+
+===== RedesignedHashLookup =====
+Stock=99999, elapsed ns=70783
+

@@ -1,0 +1,10 @@
+workload,approach,run,elapsed_ns,notes
+Short,String+,1,PENDING,Fill with actual run
+Short,StringBuilder,1,PENDING,Fill with actual run
+Short,StringBuffer,1,PENDING,Fill with actual run
+50-fields,String+,1,PENDING,Fill with actual run
+50-fields,StringBuilder,1,PENDING,Fill with actual run
+50-fields,StringBuffer,1,PENDING,Fill with actual run
+200-fields,String+,1,PENDING,Fill with actual run
+200-fields,StringBuilder,1,PENDING,Fill with actual run
+200-fields,StringBuffer,1,PENDING,Fill with actual run

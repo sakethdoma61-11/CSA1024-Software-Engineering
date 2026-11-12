@@ -1,0 +1,7 @@
+size,operation,collection,run,elapsed_ns
+1000,get-middle,ArrayList,1,PENDING
+1000,get-middle,LinkedList,1,PENDING
+10000,get-middle,ArrayList,1,PENDING
+10000,get-middle,LinkedList,1,PENDING
+50000,get-middle,ArrayList,1,PENDING
+50000,get-middle,LinkedList,1,PENDING

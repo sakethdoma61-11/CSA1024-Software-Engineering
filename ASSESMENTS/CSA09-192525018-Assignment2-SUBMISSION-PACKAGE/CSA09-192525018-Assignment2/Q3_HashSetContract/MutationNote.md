@@ -1,0 +1,1 @@
+The supplied assignment's complete-code class uses final fields. Keeping fields used by equals/hashCode immutable avoids the common error of changing a key after insertion into a hash collection. The contract requires equal objects to have equal hash codes; unequal objects may still share a hash code. Expected program line: `Unique students: 2`.

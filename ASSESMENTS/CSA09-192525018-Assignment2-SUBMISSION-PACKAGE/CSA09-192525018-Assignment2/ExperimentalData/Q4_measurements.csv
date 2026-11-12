@@ -1,0 +1,4 @@
+map,size,operation,run,elapsed_ns
+HashMap,10000,100000-lookups,1,PENDING
+TreeMap,10000,100000-lookups,1,PENDING
+LinkedHashMap,10000,100000-lookups,1,PENDING
